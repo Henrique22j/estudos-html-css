@@ -1,0 +1,15 @@
+Agora que você está familiarizado com as cores secundárias, você aprenderá como criar cores terciárias. As cores terciárias são criadas combinando uma cor primária com uma cor secundária.
+
+Para criar a cor terciária laranja, atualize a função rgb na regra do CSS .one de modo que o vermelho esteja no valor máximo, e defina verde para 127.
+Observe que, para criar laranja, você teve que aumentar a intensidade do vermelho e diminuir a intensidade dos valores rgb do verde. Isto ocorre porque laranja é a combinação entre vermelho e amarelo.
+
+Para criar a cor terciária verde da primavera, combine ciano com verde. Atualize a função rgb na regra do CSS .two para que o verde fique no valor máximo e azul tenha o valor de 127.
+
+Existem mais três cores terciárias: chartreuse verde (verde + amarelo), azure (azul + ciano), e rosa (vermelho + magenta).
+
+Para criar a cor chartreuse verde, atualize a função rgb na regra .one do CSS de modo que o vermelho esteja em 127 e defina verde para seu nível máximo.
+
+Para criar a cor azure, atualize a função rgb na regra .two do CSS de modo que o verde esteja em 127 e azul esteja em seu nível máximo.
+
+E para rosa, que às vezes é chamado de rosa brilhante, atualize a função de rgb na regra .three do CSS para que o azul esteja em 127 e vermelho esteja no valor máximo.
+

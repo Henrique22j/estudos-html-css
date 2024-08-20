@@ -1,0 +1,3 @@
+dentro do elemento ancora voce pode colocar o atributo target com o valor _blank para o navegador abra uma novo guia ao inves de mudar a pagina:
+
+ <p>See more <a href="https://freecatphotoapp.com" target = "_blank">cat photos</a> in our gallery.</p>

@@ -1,0 +1,10 @@
+A propriedade abreviada border-left permite que você defina a largura da borda esquerda, o estilo e a cor ao mesmo tempo.
+
+Aqui está a sintaxe:
+
+border-left: width style color;
+Na regra do CSS .sleeve, substitua as propriedades border-left-width, border-left-style, e border-left-color pela propriedade abreviada border-left. Os valores para a largura, estilo e cor da borda esquerda devem ser os mesmos.
+
+Seu marcador está bonito. Mas para torná-lo ainda mais realista, você pode alterar o estilo da borda para borda sólida dupla.
+
+Para a propriedade abreviada border-left, altere o valor do estilo de borda de solid para double.

@@ -1,0 +1,9 @@
+O elemento figure representa um conteúdo auto-contido e permitirá que voce associe uma imagem com uma legenda.
+
+Um elemento de legenda da figura (figcaption) é usado para adicionar uma legenda para descrever a imagem contida dentro do elemento figure. Por exemplo, <figcaption>Cats love lasagna.</figcaption> adiciona a legenda Cats love lasagna.
+
+ <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption> Cats love lasagna </figcaption>
+</figure>
+

@@ -1,0 +1,5 @@
+Gire todos os retângulos para dar a eles mais um visual imperfeito, como se fosse pintado à mão.
+
+Use a propriedade transform no seletor .one com o valor rotate para girar o elemento no sentido anti-horário em 0,6 graus.
+
+transform: rotate(-0.6deg);

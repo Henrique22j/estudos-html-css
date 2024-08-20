@@ -1,0 +1,3 @@
+Ao contrário dos outros elementos de conteúdo que você usou até agora, o elemento div é usado principalmente para fins de layout de design.
+A tag <div> cria um bloco genérico para agrupar conteúdos. Ela é equivalente, no grupo de tags de bloco, ao que a tag <span> representa no grupo de tags inline/conteúdo. A função da tag <div> é separar os conteúdos do código HTML em divisões de espaço/conjunto, sem qualquer peso semântico.
+Mesmo que a <div> não tenha texto, ela ainda é tratada como uma caixa com conteúdo. 

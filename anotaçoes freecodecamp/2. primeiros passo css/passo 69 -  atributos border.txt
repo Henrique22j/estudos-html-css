@@ -1,0 +1,5 @@
+Observe a cor cinza ao longo das arestas da linha. Essas arestas são conhecidas como bordas. Cada lado de um elemento pode ter uma cor diferente ou eles podem ser todos iguais.
+
+Faça com que todas as bordas do elemento hr sejam da mesma cor que o fundo dele usando a propriedade border-color.
+
+Percebeu como a espessura da linha parece maior? O valor padrão da propriedade border-width é de 1px para todas as arestas dos elementos hr.

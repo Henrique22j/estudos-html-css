@@ -1,0 +1,7 @@
+Você muda as propriedades de um link quando o link tenha sido visitado de fato usando um pseudosseletor, que tem essa aparência: a:visited { propertyName: propertyValue; }.
+
+Mude a cor do rodapé Visit our website para grey quando um usuário tiver visitado o link.
+
+Você muda as propriedades de um link quando o mouse passa sobre ele usando um pseudosseletor, que tem essa aparência: a:hover { propertyName: propertyValue; }.
+Você muda as propriedades de um link quando o link tiver sido clicado de fato usando um pseudosseletor, que tem essa aparência: a:active { propertyName: propertyValue; }.
+

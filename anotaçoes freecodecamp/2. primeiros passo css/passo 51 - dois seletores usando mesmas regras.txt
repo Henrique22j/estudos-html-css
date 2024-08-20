@@ -1,0 +1,8 @@
+Alguma coisa parece não estar certa. Você adicionou o valor correto do atributo class para o elemento p que tem o texto Donut, mas você não definiu um seletor para ele.
+
+A regra de CSS para a classe flavor já define as propriedades que você deseja. Adicione a classe dessert como um seletor adicional para essa regra do CSS.
+
+.flavor, .dessert{
+  text-align: left;
+  width: 75%;
+}

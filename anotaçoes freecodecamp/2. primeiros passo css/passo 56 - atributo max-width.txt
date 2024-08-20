@@ -1,0 +1,3 @@
+A largura atual do menu sempre ocupará 80% da largura do elemento body. Em uma tela muito ampla, o café e a sobremesa aparecem muito distantes de seus preços.
+
+Adicione uma propriedade max-width ao menu com um valor de 500px para evitar esse distanciamento em excesso.

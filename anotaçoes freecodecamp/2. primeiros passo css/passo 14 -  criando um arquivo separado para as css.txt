@@ -1,0 +1,5 @@
+Você estilizou três elementos escrevendo CSS dentro das tags style. Isso funciona, mas como haverá vários outros estilos, é melhor colocar todos os estilos em um arquivo separado e vincular a ele.
+
+Criamos um arquivo separado styles.css para você e trocamos a visualização do editor para esse arquivo. Você pode alternar a visualização dos arquivos nas abas na parte superior do editor.
+
+ <link rel="stylesheet" href="style.css">

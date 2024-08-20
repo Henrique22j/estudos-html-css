@@ -1,0 +1,1 @@
+Observe que os dois botões de opção podem ser selecionados ao mesmo tempo. Para fazer com que selecionar um botão de opção automaticamente desmarque a seleção do outro, os dois botões devem ter um atributo de name com o mesmo valor.

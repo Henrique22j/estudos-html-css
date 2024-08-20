@@ -1,0 +1,6 @@
+NO elemento (ul) use elementos de item de lista (li) para criar itens em uma lista. Aqui está um exemplo de itens de lista em uma lista não ordenada:
+
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>

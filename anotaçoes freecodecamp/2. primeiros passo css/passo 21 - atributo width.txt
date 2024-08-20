@@ -1,0 +1,11 @@
+Agora o objetivo é fazer a div não ocupar toda a largura da página. A propriedade CSS width é perfeita para isso.
+
+Você pode usar o seletor id para marcar um elemento específico com um atributo id. Um seletor id é definido colocando o símbolo de hashtag, #, diretamente na frente do valor do id do elemento. Por exemplo, se um elemento tem o id cat, você selecionaria esse elemento assim:
+
+#cat {
+  width: 250px; //pode fazer tb com porcentagem ex: width: 25%
+}
+
+Se você tornar a largura da visualização da página menor, você notará, em algum ponto, que parte do texto à esquerda começa a quebrar para a próxima linha. Isso ocorre porque a largura dos elementos p do lado esquerdo só pode ocupar 50% do espaço.
+
+Selecione apenas os elementos .inline e dê a eles uma width de unset. Isso removerá a regra anterior que define todos os elementos input para width: 100%.

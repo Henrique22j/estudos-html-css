@@ -1,0 +1,1 @@
+O elemento legend atua como uma legenda para o conteúdo do elemento fieldset. Ele dá aos usuários um contexto sobre o que devem inserir nessa parte do formulário.

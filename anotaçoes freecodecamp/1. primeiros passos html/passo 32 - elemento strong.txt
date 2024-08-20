@@ -1,0 +1,1 @@
+O elemento strong é usado para indicar que algum texto é de grande importância ou urgência.

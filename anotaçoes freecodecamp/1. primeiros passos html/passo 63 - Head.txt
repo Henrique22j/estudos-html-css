@@ -1,0 +1,21 @@
+Observe que tudo o que você adicionou à página até agora está dentro do elemento body. Todos os elementos de conteúdo da página que devem ser renderizados na página ficam dentro do elemento body. No entanto, outras informações importantes vão dentro do elemento head.
+
+Adicione um elemento head acima do elemento body.
+
+O elemento title determina o que os navegadores mostrarão na barra de título ou na aba da página.
+
+Observe que todo o conteúdo da página está aninhado em um elemento html. Todos os outros elementos devem ser descendentes (estar dentro) deste elemento html.
+
+Adicione o atributo lang com o valor pt-br à tag de abertura de html para especificar que o idioma da página é o portugues dos brasil.
+
+Todas as páginas devem começar com <!DOCTYPE html>. Essa string especial é conhecida como uma declaração e garante que o navegador tentará atender às especificações gerais do setor.
+
+Passo 69Aprovado
+Você pode definir o comportamento do navegador adicionando elementos meta de autofechamento em head. Aqui está um exemplo:
+
+<meta attribute="value">
+Diga ao navegador para colocar a marcação (markup) em diversos idiomas criando um elemento meta como filho do elemento head. Defina o atributo charset como UTF-8.
+Dentro do elemento head, adicione um elemento meta com um atributo chamado charset definido para o valor utf-8 para dizer ao navegador como codificar caracteres para a página. Note que os elementos meta fecham em si mesmos.
+
+
+

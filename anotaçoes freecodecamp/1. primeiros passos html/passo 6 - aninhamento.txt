@@ -1,0 +1,1 @@
+No passo anterior, você colocou os elementos h1 e h2, o comentário e os elementos p dentro do elemento main. Isso é chamado de aninhamento. Elementos aninhados devem ser colocados dois espaços mais à direita do elemento em qual estão aninhados. Este espaçamento é chamado de indentação e é usado para facilitar a leitura do HTML.

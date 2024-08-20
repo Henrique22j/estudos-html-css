@@ -1,0 +1,5 @@
+Atributos em HTML são palavras especiais usadas dentro da tag de abertura de um elemento para controlar o comportamento dele. O atributo src em um elemento img especifica o URL da imagem (onde a imagem está localizada).
+
+Aqui está um exemplo de um elemento img com um atributo src apontando para o logotipo do freeCodeCamp:
+
+<img src="https://cdn.freecodecamp.org/platform/universal/fcc_secondary.svg">

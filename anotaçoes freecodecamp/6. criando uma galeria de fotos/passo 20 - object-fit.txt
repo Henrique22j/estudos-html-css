@@ -1,0 +1,3 @@
+Observe como algumas de suas imagens ficaram distorcidas. Isto ocorre porque as imagens têm proporções diferentes. Em vez de definir cada proporção individualmente, você pode usar a propriedade object-fit para determinar como as imagens devem se comportar.
+
+Dê ao seletor .gallery img a propriedade object-fit com o valor cover. Isto informará a imagem que ela deve preencher o contêiner img enquanto mantém a proporção, resultando em um corte para o ajuste.

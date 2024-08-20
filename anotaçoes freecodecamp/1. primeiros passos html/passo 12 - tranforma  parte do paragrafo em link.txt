@@ -1,0 +1,4 @@
+Você pode transformar qualquer texto em um link, como o texto dentro de um elemento p.
+
+<p>I think <a href="https://www.freecodecamp.org">freeCodeCamp</a> is great.</p>
+

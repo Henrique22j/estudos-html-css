@@ -1,0 +1,3 @@
+Agora você vai adicionar uma seção de rodapé à página.
+
+Depois do elemento main, adicione um elemento footer.

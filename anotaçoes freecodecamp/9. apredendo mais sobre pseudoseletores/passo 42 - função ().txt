@@ -1,0 +1,8 @@
+A função calc() é uma função do CSS que permite calcular um valor baseado em outros valores. Por exemplo, você pode usá-la para calcular a largura da viewport menos a margem de um elemento:
+
+Exemplo de código
+.example {
+  margin: 10px;
+  width: calc(100% - 20px);
+}
+Dê ao elemento #years uma margin de 0 -2px e um padding definido como 0.5rem calc(1.25rem + 2px) 0.5rem 0.

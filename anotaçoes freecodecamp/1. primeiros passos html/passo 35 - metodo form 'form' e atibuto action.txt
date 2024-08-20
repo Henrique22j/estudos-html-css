@@ -1,0 +1,2 @@
+O metodo form gera um formulario e o atributo action indica para onde devem ser enviados. Por exemplo, <form action="/submit-url"></form> informa ao navegador que os dados do formulário devem ser enviados para o caminho /submit-url.
+

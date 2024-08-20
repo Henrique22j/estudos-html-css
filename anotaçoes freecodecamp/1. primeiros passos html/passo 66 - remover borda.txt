@@ -1,0 +1,1 @@
+Você pode usar um valor de none ou 0 para remover o elemento border

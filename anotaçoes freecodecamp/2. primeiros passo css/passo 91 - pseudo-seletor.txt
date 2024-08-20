@@ -1,0 +1,18 @@
+A borda do último elemento fieldset parece um pouco fora de lugar. Você pode selecionar o último elemento de um tipo específico usando a pseudo-classe last-of-type do CSS, assim:
+
+p:last-of-type { }
+Isso selecionará o último elemento p. Crie um seletor que tenha como destino o último elemento fieldset e defina o atributo border-bottom como none.
+
+O pseudosseletor :not pode ser usado para selecionar todos os elementos que não correspondem à determinada regra do CSS.
+
+div:not(#example) {
+  color: red;
+}
+A regra que vemos acima seleciona todos os elementos div sem uma id de example.
+
+Modifique o seletor de .daily-value p para excluir os elementos .no-divider.
+
+O pseudosseletor :first-of-type é utilizado para focar no primeiro elemento que corresponde ao seletor. 
+O pseudosseletor :last-of-type é utilizado para focar exatamente o oposto: o último elemento que corresponde ao seletor. 
+O pseudosseletor :not() é usado para direcionar todos os elementos que não coincidem com o seletor - neste caso, qualquer dos elementos span que não possua a classe sr-only. Isso garante que as regras anteriores para o seletor span[class~="sr-only"] não sejam substituídas.
+O pseudosseletor :nth-of-type() é usado para focar em elementos específicos com base em sua ordem entre irmãos do mesmo tipo. Use esse pseudosseletor com foco no terceiro elemento td dentro das linhas da tabela total. Dê a ele um preenchimento (padding) de 0.5rem.

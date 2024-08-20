@@ -1,0 +1,14 @@
+A text-transformpropriedade CSS especifica como colocar o texto de um elemento em maiúscula. Ele pode ser usado para fazer com que o texto apareça totalmente em letras maiúsculas ou minúsculas, ou com cada palavra em maiúscula. Também pode ajudar a melhorar a legibilidade do Ruby.
+
+
+text-transform: capitalize;
+ converte a primeira letra de cada palavra em maiúscula. Outros caracteres permanecem inalterados (eles mantêm a caixa original conforme escrita no texto do elemento). Uma letra é definida como um caractere que faz parte das categorias gerais de Letra ou Número do Unicode; assim, quaisquer sinais de pontuação ou símbolos no início de uma palavra serão ignorados.
+
+text-transform: uppercase;
+ converte todos os caracteres em letras maiúsculas.
+
+text-transform: lowercase;
+ É uma palavra-chave que converte todos os caracteres em letras minúsculas.
+ 
+text-transform: none;
+ É uma palavra-chave que evita que a caixa de todos os caracteres seja alterada.

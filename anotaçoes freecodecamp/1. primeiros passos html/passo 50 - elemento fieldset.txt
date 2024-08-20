@@ -1,0 +1,3 @@
+O elemento fieldset é usado para agrupar entradas (inputs) e rótulos (labels) relacionados em um formulário da web. Os elementos fieldset são elementos de nível de bloco, o que significa que eles aparecem em uma nova linha.
+
+Coloque os botões de opção Indoor e Outdoor dentro de um elemento fieldset e não se esqueça de indentar os botões de opção.

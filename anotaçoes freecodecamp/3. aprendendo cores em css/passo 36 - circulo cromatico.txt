@@ -1,0 +1,5 @@
+O circulo cromático é um círculo onde cores, ou matizes, semelhantes ficam próximas e cores diferentes ficam mais distantes. Por exemplo, vermelho puro está entre as cores da rosa e da laranja.
+
+Duas cores que são opostas uma da outra na roda de cores são chamadas de cores complementares. Se duas cores complementares forem combinadas, produzirão cinza. Mas quando elas são colocados lado a lado, essas cores produzem um forte contraste visual e parecem mais brilhantes.
+
+É uma prática melhor escolher uma cor como a cor dominante e usar sua cor complementar como um destaque para chamar a atenção para certos conteúdos na página.

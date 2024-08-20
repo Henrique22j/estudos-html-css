@@ -1,0 +1,3 @@
+A cor de fundo foi aplicada, mas como o elemento div do marcador não tem conteúdo dentro dele, ele não tem qualquer largura por padrão.
+
+Na regra do CSS .marker, defina a propriedade height como 25px e a propriedade width como 200px

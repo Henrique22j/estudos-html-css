@@ -1,0 +1,1 @@
+Você pode adicionar imagens a um site da web usando o elemento img. Elementos img têm uma tag de abertura, mas não têm a tag de fechamento. A tag de um elemento que não precisa de uma tag de fechamento é conhecida como tag de fechamento automático.

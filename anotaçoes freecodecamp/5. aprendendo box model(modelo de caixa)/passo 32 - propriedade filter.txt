@@ -1,0 +1,9 @@
+As cores e formas da pintura são muito precisas para fingir que ela é uma pintura de Rothko.
+
+Use a propriedade filter para dar um desfoque com blur na pintura de 2px no elemento .canvas.
+
+Aqui está um exemplo de uma regra que adiciona um desfoque (blur) de 3px:
+
+p {
+  filter: blur(3px);
+}

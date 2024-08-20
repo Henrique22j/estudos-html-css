@@ -1,0 +1,7 @@
+O código de uma lista ordenada (ol) é semelhante ao de uma lista não ordenada, mas a lista de itens em uma lista ordenada é numerada quando eles são exibidos.
+
+      <ol>
+            <li>flea treament</li>
+            <li>thunder</li>
+            <li>other cats</li>
+     </ol>

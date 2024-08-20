@@ -1,0 +1,16 @@
+A adição de 1 pixel de preenchimento às partes superior, inferior, esquerda e direita da tela mudou suas dimensões para 502 pixels x 602 pixels.
+
+Substitua a propriedade padding com overflow definido como hidden - o que faz com que a tela volte às dimensões originais.
+
+A overflowpropriedade especifica se o conteúdo deve ser recortado ou adicionadas barras de rolagem quando o conteúdo de um elemento for muito grande para caber na área especificada.
+
+A overflowpropriedade possui os seguintes valores:
+
+visible- Padrão. O estouro não é cortado. O conteúdo é renderizado fora da caixa do elemento
+hidden- O estouro será cortado e o restante do conteúdo ficará invisível
+scroll- O overflow é cortado e uma barra de rolagem é adicionada para ver o resto do conteúdo
+auto- Semelhante a scroll, mas adiciona barras de rolagem somente quando necessário
+
+Nota: A overflowpropriedade só funciona para elementos de bloco com altura especificada.
+
+Nota: No OS X Lion (no Mac), as barras de rolagem ficam ocultas por padrão e são mostradas apenas quando usadas (mesmo que "overflow:scroll" esteja definido).

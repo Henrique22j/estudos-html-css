@@ -1,0 +1,16 @@
+Existem dois modelos de cores: o modelo aditivo RGB (vermelho, verde, azul), usado em dispositivos eletrônicos, e o modelo subtrativo CMYK (ciano, magenta, amarelo, preto), usado em impressão.
+
+Neste projeto, você trabalhará com o modelo RGB. Isso significa que as cores começam como pretas e mudam quando são introduzidos diferentes níveis de vermelho, verde e azul. Uma maneira fácil de ver isso é com a função do CSS rgb.
+
+Crie uma nova regra do CSS vinculada à classe container e defina sua propriedade background-color para rgb(0, 0, 0).
+
+Uma função é um trecho de código que pode receber uma entrada e executar uma ação específica. A função do CSS rgb aceita valores, ou argumentos, para vermelho, verde e azul, e produz uma cor:
+
+rgb(red, green, blue);
+Cada valor vermelho, verde e azul é um número de 0 a 255. 0 significa que há 0% dessa cor e é preta. 255 significa que há 100% dessa cor.
+
+Na regra do CSS .one, substitua a palavra-chave de cor red pela função rgb. Atualize a função rgb para que o valor para vermelho seja 255, o valor do verde 0 e o valor de azul 0.
+
+No modelo aditivo de cor RGB, cores primárias são cores que, quando combinadas, criam branco puro. Mas, para que isso aconteça, cada cor tem que estar em sua maior intensidade.
+
+Antes de combinar cores, defina seu marcador verde de volta ao verde puro. Defina os valores vermelho, verde e azul no máximo de 255 para a função rgb na regra de CSS .two.

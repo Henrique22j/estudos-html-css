@@ -1,0 +1,3 @@
+Para dizer aos navegadores como codificar caracteres na sua página, defina o charset como utf-8. utf-8 é um conjunto de caracteres universal que inclui quase todos os caracteres de todos os idiomas humanos.
+
+Dentro do elemento head, aninhe um elemento meta com o atributo charset definido para utf-8. Assim como os elementos img, os elementos meta são de fechamento automático e não precisam de tags de fechamento.

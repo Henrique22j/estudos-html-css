@@ -1,0 +1,7 @@
+Até agora, você tem sido limitado em relação à apresentação e aparência do conteúdo que você cria. Para começar a tomar o controle, adicione um elemento style dentro do elemento head.
+Você pode adicionar estilo a um elemento, especificando-o no elemento style e definindo uma propriedade para ele assim:
+
+element {
+ property: value;
+}
+Centralize seu elemento h1 definindo sua propriedade text-align para o valor center.

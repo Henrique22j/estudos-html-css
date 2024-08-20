@@ -1,0 +1,2 @@
+Você pode fazer uma ligação com outra página usando o elemento de âncora (a).
+ Por exemplo, <a href='https://freecodecamp.org'></a> faria um link para freecodecamp.org.

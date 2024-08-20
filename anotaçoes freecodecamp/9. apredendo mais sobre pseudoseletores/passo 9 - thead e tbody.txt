@@ -1,0 +1,3 @@
+Os elementos thead and tbody são usados para indicar qual porção da tabela é o cabeçalho e qual porção contém os dados primários ou o conteúdo.
+
+Adicione um thead e um tbody à primeira table, abaixo do elemento caption.

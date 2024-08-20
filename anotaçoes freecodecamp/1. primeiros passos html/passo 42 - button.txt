@@ -1,0 +1,14 @@
+Use o elemento button para criar um botão clicável. Por exemplo, <button>Click Here</button> cria um botão com o texto Click Here.
+
+Adicione um elemento button com o texto Submit abaixo do elemento input. O comportamento padrão de clicar em um botão de formulário sem qualquer atributo envia o formulário para o local especificado no atributo action.
+
+<button>Submit</button>
+
+Mesmo que você tenha adicionado o botão abaixo do campo (input) de texto, eles aparecem um ao lado de outro na página. Isso ocorre porque os elementos input e button são elementos em linha (inline), que não aparecem em novas linhas.
+
+O botão que você adicionou enviará o formulário por padrão. No entanto, confiar no comportamento padrão pode causar confusão. Adicione o atributo type com o valor submit ao button para deixar claro que ele é um botão de envio.
+
+<button type="submit">Submit</button>
+
+
+

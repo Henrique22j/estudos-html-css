@@ -1,0 +1,3 @@
+Você pode usar um elemento hr para exibir um divisor entre seções de conteúdo diferente.
+
+Primeiro, adicione um elemento hr entre o elemento p com a classe established e o primeiro elemento section. Observe que os elementos hr fecham em si mesmos.

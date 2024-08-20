@@ -1,0 +1,7 @@
+O elemento textarea age como um elemento input do tipo text, mas vem com o benefício adicional de poder receber texto em várias linhas e um número inicial de linhas e colunas.
+
+Os usuários poderão se registrar com uma biografia. Adicione um label com o texto Provide a bio: ao final do fieldset. Adicione um elemento textarea dentro do elemento label. Observe que o elemento textarea requer uma tag de fechamento.
+
+A textarea está muito pequena. Para dar a ela um tamanho inicial, você pode adicionar os atributos rows e cols.
+
+Adicione um tamanho inicial de 3 linhas e 30 colunas.

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #ex:hover{
+            color: rgb(206, 39, 206);
+        }
+        /*Paragrado dentro da div*/
+        #ex > p{
+            display: none; /*Oculta a presença*/
+        }
+
+        #ex:hover > p {
+            display: block;
+            color: white;
+            background-color: black;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo Hover</h1>
+    <p>passe o mouse no texo abaixo:</p>
+    <div id="ex">Passe o mouse aqui
+        <p>estoy invisivel jefe</p>
+    </div>
+    <p>fim do exemplo</p>
+</body>
+</html>

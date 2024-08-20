@@ -1,0 +1,6 @@
+Existe outra maneira de associar o texto de um elemento input com o elemento em si. Você pode colocar o texto dentro de um elemento label e adicionar um atributo for com o mesmo valor que o atributo id do elemento input.
+
+Associe o texto Loving com a caixa de seleção inserindo apenas o texto Loving em um elemento label e dando a ele um atributo for apropriado.
+
+<input id="loving" type="checkbox">
+<label for="loving">Loving</label> 

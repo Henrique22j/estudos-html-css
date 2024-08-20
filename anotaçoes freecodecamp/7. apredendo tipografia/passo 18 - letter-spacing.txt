@@ -1,0 +1,3 @@
+A propriedade letter-spacing pode ser usada para ajustar o espaço entre cada caractere de texto em um elemento.
+
+Dê ao seletor h1 uma propriedade letter-spacing definida como 0.15px para deixá-los um pouco mais distantes.

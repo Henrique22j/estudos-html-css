@@ -1,0 +1,17 @@
+@charset "utf-8"; /*regra*/
+
+body {
+    background-color: lightyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    color: darkred;
+    background-color: goldenrod;
+}
+h2{
+    color:  red;
+}
+
+p{
+    text-align: justify;
+}

@@ -1,0 +1,9 @@
+Para que a estilização da página pareça semelhante no celular, em um desktop ou em um laptop, você precisa adicionar um elemento meta com um atributo especial content.
+
+Adicione o seguinte dentro do elemento head:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+Você pode ter vários elementos meta de fechamento automático em uma página da web. Cada elemento meta adiciona informações sobre a página que não podem ser expressas por outros elementos do HTML.
+
+Adicione outro elemento meta de fechamento automático dentro do elemento head. Dê a ele o atributo name definido como viewport e o atributo content definido como width=device-width, initial-scale=1.0 para que a página tenha a mesma aparência em todos os dispositivos.

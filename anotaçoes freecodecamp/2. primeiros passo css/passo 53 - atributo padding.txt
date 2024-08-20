@@ -1,0 +1,8 @@
+ 53Aprovado
+Você pode dar ao seu menu um pouco mais de espaço entre o conteúdo e os lados com várias propriedades padding.
+
+Dê à classe menu um padding-left e um padding-right com o mesmo valor de 20px. padding-top e padding-bottom de 20px tambem;
+Já que todos os 4 lados do menu têm o mesmo espaçamento interno, exclua as quatro propriedades e use uma única propriedade padding com o valor 20px.
+padding: 20px;
+
+Para criar um pouco mais de espaço ao redor do menu, adicione 20px de espaço interno ao elemento body usando a propriedade padding.

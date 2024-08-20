@@ -1,0 +1,7 @@
+Você pode alterar o estilo de fonte com font-family, para que o texto fique diferente do estilo de fonte padrão do seu navegador. Cada navegador tem algumas fontes comuns já disponíveis.
+
+Mude todo o texto em body, adicionando a propriedade font-family com o valor sans-serif. Esta é um fonte bastante comum que é bem legível.
+
+Você pode adicionar um valor de fallback para a font-family adicionando outro nome de fonte separado por uma vírgula. Os fallbacks são usados em instâncias onde a fonte inicial não é encontrada ou não está disponível.
+
+Adicione a fonte de fallback serif após a fonte Impact.

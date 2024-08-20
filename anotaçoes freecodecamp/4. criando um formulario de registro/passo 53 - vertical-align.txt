@@ -1,0 +1,3 @@
+Se você olhar de perto, notará que os elementos .inline estão altos demais na linha.
+
+Para evitar isso, defina a propriedade vertical-align como middle.

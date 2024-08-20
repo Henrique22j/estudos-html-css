@@ -1,0 +1,3 @@
+Você pode usar botões de opção para perguntas onde você queira que o usuário dê apenas uma resposta entre várias opções.
+
+Aqui está um exemplo de um botão de opção com a opção cat: <input type="radio"> cat. Lembre-se de que os elementos input são de fechamento automático.

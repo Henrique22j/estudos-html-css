@@ -1,0 +1,3 @@
+A propriedade justify-content determina como os itens dentro de um contêiner flex são posicionados no eixo principal, afetando a posição e o espaço ao seu redor.
+
+Dê ao seletor .gallery a propriedade justify-content com o valor de center.

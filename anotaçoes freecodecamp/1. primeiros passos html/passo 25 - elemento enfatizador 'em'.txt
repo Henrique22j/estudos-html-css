@@ -1,0 +1,3 @@
+Enfatize a palavra love no elemento figcaption encapsulando-o em um elemento em.
+
+ <figcaption><em>Cats love lasagna.</em></figcaption>

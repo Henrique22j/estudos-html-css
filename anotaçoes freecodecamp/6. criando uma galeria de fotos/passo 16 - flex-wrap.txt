@@ -1,0 +1,3 @@
+A propriedade flex-wrap determina como os itens flex se comportam quando o contêiner flex for muito pequeno. Defini-la como wrap permitirá que os itens sejam associados à próxima linha ou coluna. nowrap (padrão) impedirá que os itens sejam associados ou que encolham, se necessário.
+
+Faça com que seus itens flex sejam associados à próxima linha quando eles ficarem sem espaço.

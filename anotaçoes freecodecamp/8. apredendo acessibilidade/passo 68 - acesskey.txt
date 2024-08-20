@@ -1,0 +1,12 @@
+
+Finalmente, a acessibilidade de navegação pode ser melhorada fornecendo atalhos de teclado.
+
+O atributo accesskey aceita uma lista de teclas de acesso separadas por espaços. Por exemplo:
+
+Exemplo de código
+<button type="submit" accesskey="s">Submit</button>
+Dê a cada um dos links de navegação uma tecla de acesso de uma única letra.
+
+Observação: nem sempre é aconselhável usar teclas de acesso, mas elas podem ser úteis
+
+Bom trabalho. Você concluiu o projeto prático Teste de acessibilidade.

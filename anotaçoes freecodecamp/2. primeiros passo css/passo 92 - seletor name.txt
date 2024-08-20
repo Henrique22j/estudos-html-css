@@ -1,0 +1,12 @@
+Para estilizar o botão enviar, você pode usar um seletor de atributo, que seleciona um elemento com base no valor dado. Exemplo:
+
+input[name="password"]
+O código acima seleciona elementos input com um atributo name com o valor password.
+
+Agora, use o seletor de atributo para estilizar o botão de enviar com um display de block e width de 60%.
+ex: input[type="submit"]{
+  display: block;
+  width: 60%;
+}
+
+O seletor span[class~="sr-only"] selecionará qualquer elemento span cujo atributo class inclua sr-only.

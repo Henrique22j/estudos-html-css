@@ -1,0 +1,9 @@
+Observe como a borda azul da imagem se estende para além da borda vermelha da galeria. Isto é devido ao modo como os navegadores calculam o tamanho dos elementos do contêiner.
+
+A propriedade box-sizing é usada para definir esse comportamento. Por padrão, o modelo content-box é usado. Com esse modelo, quando um elemento tem uma largura específica, essa largura é calculada apenas com base no conteúdo do elemento. Os valores de preenchimento e das bordas são adicionados à largura total. Assim, o elemento cresce para acomodar esses valores.
+
+Tente definir o box-sizing para content-box explicitamente, com o seletor global *. Nesse ponto, você não verá nenhuma mudança, porque você está usando o valor padrão.
+
+O modelo de dimensionamento border-box faz o oposto de content-box. A largura total do elemento, incluindo preenchimento e borda, será o conjunto de largura explícita. O conteúdo do elemento encolherá para dar espaço ao preenchimento e à borda.
+
+Altere a propriedade box-sizing para border-box. Observe como a borda azul da imagem se ajusta dentro da borda vermelha da galeria.

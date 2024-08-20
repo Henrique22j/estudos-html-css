@@ -1,0 +1,14 @@
+Opacidade descreve a quantidade de transparência de um elemento. Por exemplo, um muro sólido é opaco, e nenhuma luz pode passar. Mas um copo de bebida é muito mais transparente e pode ver-se através do copo o outro lado.
+
+Com a propriedade do CSS opacity, você pode controlar como um elemento é opaco ou transparente. Com o valor 0, ou 0%, o elemento será completamente transparente e 1.0, ou 100%, o elemento será completamente opaco, como é por padrão.
+
+Outra maneira de definir a opacidade para um elemento é com o canal alfa. Semelhante à propriedade opacity, o canal alfa controla o nível de transparência ou de opacidade de uma cor.
+
+Você já definiu a opacidade da capa com uma cor nomeada e a propriedade opacity, mas você pode adicionar um canal alfa para as outras propriedades de cor do CSS.
+
+Você já está familiarizado com o uso da função rgb para definir as cores. Para adicionar um canal alfa a uma cor rgb, use a função rgba.
+
+A função rgba age como a função rgb, mas recebe mais um número de 0 a 1.0 para o canal alfa:
+
+rgba(redValue, greenValue, blueValue, alphaValue);
+Você também pode usar um canal alfa às cores com hsl e hex. Você verá como fazer isso em breve.

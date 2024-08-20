@@ -1,0 +1,23 @@
+O posicionamento do CSS permite que você defina como você deseja que um elemento seja posicionado no navegador. Ele possui uma propriedade position que você pode definir como static, absolute, relative, sticky ou fixed.
+
+Uma vez que você definir a propriedade position do elemento, você pode mover o elemento definindo um pixel ou um valor percentual para um ou mais dentre as propriedades top, right, left ou bottom.
+
+static é o posicionamento padrão para todos os elementos. Se você o atribuir a um elemento, não poderá movê-lo usando top, right, left ou bottom.
+
+Dê a .cat-head uma propriedade position static, definindo as propriedades top e left como 100px.
+
+
+position: static;
+  top: 100px;
+  left: 100px;
+
+
+Podemos ver que nada acontece. O elemento .cat-head não se moveu apesar de definirmos um top e um left de 100px. Isso, porém, não ocorre com o posicionamento relative.
+
+Quando você usa o valor relative, o elemento ainda está posicionado de acordo com o fluxo normal do documento, mas os valores de top, left, bottom e right tornam-se ativos.
+
+Em vez de static, dê a .cat-head uma propriedade position com o valor relative e deixe as propriedades top e left como estão.
+
+  position: relative;
+  top: 100px;
+  left: 100px;

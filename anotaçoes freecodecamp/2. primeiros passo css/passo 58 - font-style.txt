@@ -1,0 +1,1 @@
+Deixe o texto Est. 2020 em itálico criando um seletor de classe established e, logo depois, dê a ele a propriedade font-style com o valor italic.

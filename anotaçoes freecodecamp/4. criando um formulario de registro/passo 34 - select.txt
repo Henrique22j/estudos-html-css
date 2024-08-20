@@ -1,0 +1,14 @@
+Adicionar uma lista suspensa ao formulário é fácil com o elemento select. O elemento select é um repositório para um grupo de elementos option e o elemento option funciona como um rótulo para cada opção de seleção. Os dois elementos requerem tags de fechamento.
+
+Comece adicionando um elemento select abaixo dos dois elementos label. Você deve aninhar 5 elementos option dentro do elemento select.
+ex: <select>
+            <option>(select one)</option>
+            <option>freeCodeCamp News</option>
+            <option>freeCodeCamp YouTube Channel</option>
+            <option>freeCodeCamp Forum</option>
+            <option>Other</option>
+          </select>
+
+Submeter um formulário com uma opção selecionada não enviaria um valor útil para o servidor. Dessa forma, cada option precisa receber um atributo value. Sem isso, o conteúdo de texto da option será enviado ao servidor.
+
+Dê ao primeiro option um value de "" e aos elementos option subsequentes atributos value de 1 a 4.

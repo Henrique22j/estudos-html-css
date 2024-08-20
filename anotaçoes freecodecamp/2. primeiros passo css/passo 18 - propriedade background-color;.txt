@@ -1,0 +1,1 @@
+background-color altera a cor de fundo do elemento

@@ -1,0 +1,3 @@
+Como o principal produto para venda na cafeteria é o café, você pode usar uma imagem de grãos de café para o fundo da página.
+
+Exclua o comentário e o conteúdo dentro do seletor de tipos body. Em seguida, adicione uma propriedade background-image e defina seu valor como url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg).

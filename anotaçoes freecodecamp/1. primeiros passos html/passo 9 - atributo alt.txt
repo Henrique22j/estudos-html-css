@@ -1,0 +1,2 @@
+Todos os elementos img devem ter um atributo alt. O texto de um atributo alt é usado por leitores de tela para melhorar a acessibilidade. Ele é exibido se a imagem não puder ser carregada.
+ Por exemplo, <img src="cat.jpg" alt="A cat"> tem um atributo alt com o texto A cat.

@@ -1,0 +1,8 @@
+Os elementos p estão aninhados em um elemento article com o atributo de classe item. Você pode estilizar todos os elementos p aninhados em qualquer lugar dos elementos com uma classe chamada item como esta:
+
+.item p { }
+
+
+Usando o seletor acima, adicione uma propriedade display com valor inline-block para que os elementos p se comportem mais como elementos em linha. os elementos inline-block só ocupam a largura de seu conteúdo.
+
+Estilizar os elementos p como inline-block e colocá-los em linhas separadas no código cria um espaço extra à direita do primeiro elemento p, fazendo com que o segundo se desloque para a linha seguinte. Uma maneira de corrigir isso é fazer com que a largura de cada elemento p seja menor que 50%.

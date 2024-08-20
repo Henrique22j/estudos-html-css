@@ -1,0 +1,3 @@
+Para aumentar a acessibilidade da página, o atributo role pode ser usado para indicar para tecnologias assistivas a finalidade por trás de um elemento na página. O atributo role é parte da Iniciativa de Acessibilidade da Web (WAI) e aceita valores pré-definidos.
+
+Dê a cada elemento section a função region.

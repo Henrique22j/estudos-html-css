@@ -1,0 +1,5 @@
+Lembre-se de que o elemento title fornece aos mecanismos de busca informações extras sobre a página. Ele também exibe o conteúdo desse elemento title de mais duas maneiras:
+
+na barra de título quando a página está aberta
+na aba do navegador para a página quando você passar o mouse sobre ela. Mesmo se essa aba não estiver ativa, assim que passar o mouse na aba, o texto de title será exibido.
+Dentro do elemento head, aninhe um elemento title com o texto Colored Markers.

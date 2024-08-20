@@ -1,0 +1,3 @@
+Assim como os botões de opção, os dados de formulário para caixas de seleção marcadas são o par de atributos name/value. Embora o atributo value seja opcional, é melhor incluí-lo com todas as caixas de seleção ou botões de opção da página.
+
+Adicione um atributo value a cada caixa de seleção. Por conveniência, defina o atributo value de cada caixa de seleção com o mesmo valor do atributo id.

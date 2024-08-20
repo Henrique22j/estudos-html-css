@@ -1,0 +1,25 @@
+Você aprendeu algumas maneiras de definir cores lisas no CSS, mas você também pode usar uma transição de cor, ou gradient, em um elemento.
+
+Um gradiente é quando uma cor muda para outra. A função CSS linear-gradient permite que você controle a direção da transição ao longo de uma linha e quais cores são usadas.
+
+Uma coisa a lembrar é que a função linear-gradient realmente cria um elemento image e que ela geralmente é pareada com a propriedade background que pode aceitar uma imagem como um valor.
+
+Na regra do CSS .red, altere a propriedade background-color para background.
+
+A função linear-gradient é muito flexível -- aqui está a sintaxe básica que você vai usar neste tutorial:
+
+linear-gradient(gradientDirection, color1, color2, ...);
+gradientDirection é a direção da linha usada para a transição. color1 e color2 são argumentos de cor, que são as cores que serão usadas na transição em si. Elas podem ser de qualquer tipo de cor, incluindo palavras-chave de cores, hex, rgb, ou hsl.
+
+Agora você aplicará um gradiente vermelho a verde ao longo de uma linha de 90 graus ao primeiro marcador.
+
+Primeiro, na regra do CSS .red, defina a propriedade background como linear-gradient(), e aplique nele o valor 90deg como a gradientDirection.
+
+Color-stops permitem que você ajuste onde as cores são colocadas ao longo da linha gradiente. São uma unidade de comprimento como px ou porcentagens que seguem uma cor na função linear-gradient.
+
+Por exemplo, neste gradiente vermelho preto, a transição do vermelho para o preto ocorre no ponto 90% ao longo da linha gradiente. Então, o vermelho ocupa a maior parte do espaço disponível:
+
+linear-gradient(90deg, red 90%, black);
+Na funçãolinear-gradient, adicione um color-stop de 75% depois do primeiro argumento de cor vermelha. Não adicione pontos de cores para os outros argumentos de cores.
+
+Se nenhum argumento gradientDirection é fornecido para a função linear-gradient, ele organiza as cores de cima para baixo, ou ao longo de uma linha de 180 graus, por padrão.

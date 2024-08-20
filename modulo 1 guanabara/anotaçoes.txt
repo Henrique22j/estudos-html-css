@@ -1,0 +1,53 @@
+Repositorios publicos:   https://github.com/gustavoguanabara
+			 gustavoguanabara.github.io
+.world wide web(www) é uma sub rede dentro da internet focada no protocolo htpp
+
+.bit: binary digit pode ser 0 ou 1
+.1 byte: união de 8 bits
+. 1 byte é a possão minima que pode representar um elemento
+.1 KB: 1024 bytes
+.1 MB: 1024 KB
+.1 GB: 1024 MB
+.1 TB: 1024 GB
+.1 PB: 1024 TB
+.1 EB: 1024 PB
+.1 ZB: 1024 PB
+.1 YB: 1024 ZB
+
+MB é diferente de Mb
+
+MB= MEGABYTES: ARMAZENAMENTO
+Mb= MEGABITS:  TRANSMISSÃO
+.UTF-8
+
+png - quando eu quero usar imagens com tranparencia
+
+jpg - quando quero usar imagens muito pesadas
+
+para colocar um site na internet é necessario ter um DOMINIO e HOSPEDAGEM.
+DOMINIO:Nome unico, paga anualmente,Varios TLDs
+HOSPEDAGEM:Espaço para armazenar arquivos, pago mensalmente,Espaço,memoria,recursos
+
+linguagem HTML:conteudo
+linguagem CSS: design
+linguagem Javascript: interaçoes
+
+div.(alguma coisa) ja cria o elemento(que nesse caso é a div) com a class escolhida e tambem funciona com id 
+
+ex: div.bloco cria <div class="bloco"></div> e h1#bloco cria <h1 id="bloco"></h1>
+
+para fazer uma lista ja com uma quantidade de elementos pre prontos é so fazer ul>li*x sendo x a quantidades
+de elementos, funciona tambem com lista ordenadas ol>li*x.
+
+ex: ul>li*2 cria <ul>		   
+		      <li> </li>
+		      <li> </li>
+		</ul>
+
+Colocar uma tag em uma frase ou palavra:
+selecionar as palavras ou palavra e aperte ctrol+shift+p e escolha a opção "Emmet: Wrap with Abbreviation" e digite a tag que deseja
+e aperte enter.
+
+Shift + Tab volta espaços de um elemento selecionado no vscode(se não entendeu pesquisa poxa)
+
+use a tag <q> para fazer citaçoes e não aspas comuns

@@ -1,0 +1,5 @@
+voce pofazer tranforma uma imagem em link envolvendo o elemento img com o elemento ancora:
+
+ <a href = 'https://freecatphotoapp.com' target = "_blank">  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+

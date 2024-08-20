@@ -1,0 +1,13 @@
+O Flexbox tem um eixo principal e um eixo cruzado. O eixo principal é definido pela propriedade flex-direction, que tem quatro valores possíveis:
+
+row (padrão): eixo horizontal com os itens flex items da esquerda para a direita
+row-reverse: eixo horizontal com os itens flex da direita para a esquerda
+column: eixo vertical com os itens flex de cima para baixo
+column-reverse: eixo vertical com os itens flex de baixo para cima
+Observação: os eixos e direções serão diferentes, dependendo da direção do texto. Os valores mostrados são para uma direção de texto da esquerda para a direita.
+
+Experimente os diferentes valores para ver como eles afetam o layout.
+
+Quando estiver pronto, defina explicitamente uma flex-direction de row no elemento .gallery.
+
+flex-direction como column-reverse - isso exibirá os elementos aninhados da parte inferior para a superior. 

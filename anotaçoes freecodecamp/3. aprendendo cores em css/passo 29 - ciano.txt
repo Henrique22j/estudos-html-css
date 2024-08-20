@@ -1,0 +1,1 @@
+Para criar a próxima cor secundária, ciano, atualize a função rgb na regra CSS de .two para combinar verde puro(0,255,0) e azul(0,0,255) puro.

@@ -1,0 +1,1 @@
+A propriedade CSS text-align define o alinhamento horizontal do conteúdo de nível embutido dentro de um elemento de bloco ou caixa de célula de tabela. Isso significa que funciona como se fosse na direção horizontal.

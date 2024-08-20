@@ -1,0 +1,1 @@
+Defina a propriedade border-collapse como collapse, o que permitirá que as bordas das células se recolham em uma única borda, em vez de uma borda em torno de cada célula. 

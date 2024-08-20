@@ -1,0 +1,2 @@
+Agora, remova a barra de rolagem horizontal definindo a margin padrão do body, utilizada por alguns navegadores, como 0.
+

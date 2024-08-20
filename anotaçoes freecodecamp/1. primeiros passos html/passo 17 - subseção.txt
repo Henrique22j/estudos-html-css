@@ -1,0 +1,1 @@
+Quando você adiciona um elemento de título menor à página, é implícito que você está iniciando uma nova subseção.

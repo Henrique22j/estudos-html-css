@@ -1,0 +1,47 @@
+O elemento input permite a você várias maneiras de coletar dados a partir de um formulário da web. Assim como os elementos img, os elementos input são de fechamento automático e não precisam de tags de fechamento.
+
+Existem muitos tipos de entradas (inputs) que você pode criar usando o atributo type. Você pode criar facilmente um campo de senha, um botão de redefinição ou um controle para permitir que os usuários selecionem um arquivo armazenado no computador.
+
+todas as entradas do atributo type: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Input
+
+Para que os dados de um formulário sejam acessados pelo local especificado no atributo action, você deve dar ao campo de texto um atributo name e atribuir a ele um valor que represente os dados que estão sendo enviados. Por exemplo, você pode usar a sintaxe a seguir para um campo de texto de endereço de e-mail: <input type="text" name="email">.
+
+O texto de placeholder é usado para dar às pessoas uma dica sobre o tipo de informação que deve ser inserido em uma entrada (input). Por exemplo, <input type="email" name="email" placeholder="Email address">.
+
+Para evitar que um usuário envie o formulário quando as informações necessárias estiverem faltando, você precisa adicionar o atributo required a um elemento input. Não há a necessidade de definir um valor para o atributo required. Em vez disso, apenas adicione a palavra required (obrigatório) ao elemento input, certificando-se de que haja um espaço entre esse atributo e os outros.
+
+
+ <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+
+O primeiro elemento input com o type com valor de submit é definido automaticamente para que envie o elemento form pai mais próximo.
+
+Para lidar com o envio do formulário, depois do último elemento fieldset, adicione um elemento input com o atributo type definido como submit e o atributo value definido como Submit.
+
+ex:  <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" /></label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+
+Com type="password" você pode usar o atributo pattern para definir uma expressão regular que a senha deve corresponder para ser considerada válida.
+
+Adicione um atributo pattern ao elemento input de senha para exigir que a entrada corresponda aos valores: [a-z0-5]{8,}
+
+Atualmente os usuários podem enviar o formulário sem checar as entradas do tipo radio. Embora você tenha previamente usado o atributo required para indicar que uma entrada é requerida, ele não irá funcionar neste caso porque adicionando required para ambas as entradas, irá transmitir a informação errada para os usuários.
+
+Para resolver isso, você pode fornecer o contexto do que é necessário usando um elemento legend com o texto Account type (required) antes do elemento label dentro do segundo campo fieldset. Adicione então o atributo checked ao campo de entrada Personal input para garantir que o formulário foi enviado com o que era necessário neste.
+
+E se você quiser permitir que um usuário faça o upload de uma foto de perfil?
+
+Bom, o input de tipo file permite isso. Adicione um label com o texto Upload a profile picture: e insira nele um input que aceite o upload de arquivos.
+
+Depois, aninhe um input com o type de number.
+
+Em seguida, adicione um atributo min à input com um valor de 13, pois usuários menores de 13 anos não devem se registrar. Além disso, provavelmente, os usuários não terão mais de 120 anos; adicione um atributo max com um valor de 120.
+
+
+Com envios de formulário, é útil e boa prática fornecer a cada elemento enviado um atributo name. Este atributo é usado para identificar o elemento no envio do formulário.
+
+Except for the two radio inputs (which you have already named), give each submittable element a unique name attribute of your choosing.
