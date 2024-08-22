@@ -12,6 +12,9 @@ position: static;
   left: 100px;
 
 
+
+
+
 Podemos ver que nada acontece. O elemento .cat-head não se moveu apesar de definirmos um top e um left de 100px. Isso, porém, não ocorre com o posicionamento relative.
 
 Quando você usa o valor relative, o elemento ainda está posicionado de acordo com o fluxo normal do documento, mas os valores de top, left, bottom e right tornam-se ativos.
@@ -21,3 +24,28 @@ Em vez de static, dê a .cat-head uma propriedade position com o valor relative 
   position: relative;
   top: 100px;
   left: 100px;
+
+A propriedade position seguinte é a absolute. Quando você usa o valor absolute para a propriedade position, o elemento é retirado do fluxo normal do documento. Então, a posição é determinada pelas propriedades top, right, bottom e left.
+
+Defina a propriedade position do elemento .cat-head como absolute. Em seguida, defina as propriedades top e left com qualquer valor positivo em pixels.
+position: absolute;
+  top: 110px;
+  left: 101px;
+
+
+
+
+fixed é um valor de propriedade position que permite deixar um elemento fixo na página, não importando para onde o usuário role a página.
+
+Você terá que criar mais marcações do html para ver como o posicionamento fixed funciona. No HTML, crie um elemento div com a classe box.
+
+
+
+
+O valor da última propriedade position é sticky. O posicionamento sticky é um híbrido dos posicionamentos relative e fixed. Ele permite que um elemento "se grude" a uma posição específica dentro do elemento que o contém ou da viewport, com base na posição de rolagem.
+
+Altere o valor da propriedade position de .cat-head para sticky, defina top como 0 e remova left e seu valor.
+
+Observação: para ver como sticky funciona, você tem de colocar alguns textos antes e depois do elemento div de .cat-head. Se você rolar para baixo depois disso, verá que .cat-head fica preso na parte superior e permanece lá.
+
+exemplo: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sticky_element
